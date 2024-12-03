@@ -1,5 +1,7 @@
 import React, { useState, useEffect} from 'react';
 
+const PUBLIC_URL = process.env.REACT_APP_PUBLIC_URL;
+
 interface DynamicBackgroundProps {
   children: React.ReactNode;
 }
@@ -10,14 +12,14 @@ const DynamicBackground: React.FC<DynamicBackgroundProps> = ({ children }) => {
   const getBackgroundImage = () => {
     const userHour = new Date().getHours();
     if (userHour >= 20 || userHour < 4) {
-      return '/assets/img/dynamic-background/20h.jpg';
+      return `${PUBLIC_URL}assets/img/dynamic-background/20h.jpg`;
     }
-    return `/assets/img/dynamic-background/${userHour}h.jpg`;
+    return `${PUBLIC_URL}assets/img/dynamic-background/${userHour}h.jpg`;
   }
 
   useEffect (() => {
     setBackgroundImage(getBackgroundImage());
-    console.log("BG:", backgroundImage);
+    
     const interval = setInterval(() => {
       setBackgroundImage(getBackgroundImage());
     }, 3600000);
