@@ -124,7 +124,6 @@ export const getWeatherCurrent = async (lat: number, lon: number): Promise<Weath
         lang: "en",
       },
     });
-    console.log(data);
     return data;
   } catch (error) {
     console.error(error);
@@ -162,7 +161,6 @@ export const getWeatherNextDays = async (lat: number, lon: number): Promise<Weat
         exclude: "current,minutely,hourly,alerts",
       },
     });
-    console.log(response.data);
     return response.data.daily.slice(1, 8);
   } catch (error) {
     console.error(error);
