@@ -1,6 +1,6 @@
 import React from 'react';
 import DynamicBackground from './compoments/DynamicBackground';
-import CardWeather from './compoments/CardWeather';
+import CardWeather from './compoments/card/CardWeather';
 
 const App: React.FC = () => {
 

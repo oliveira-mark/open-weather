@@ -16,4 +16,5 @@ dist/
 # Docker
 .dockerignore
 
+# eslintrc
 .eslintrc.json
