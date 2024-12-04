@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/oliveira-mark/open-weather">
-    <img src="assets/img/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/assets/img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Open Weather with React.js</h3>
@@ -178,7 +178,7 @@ Here are a few resources that were essential for this project:
 [license-url]: https://github.com/oliveira-mark/open-weather/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/oliveira-mark/
-[product-screenshot]: assets/img/screenshot.png
+[product-screenshot]: public/assets/img/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [TypeScript]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
