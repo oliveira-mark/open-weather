@@ -38,6 +38,7 @@ Key features:
 * **Current Weather:** Displays the temperature and weather conditions for a specific city.
 * **6-hour Forecast:** Shows the temperature and weather conditions for the next 6 hours.
 * **7-day Forecast:** Displays the maximum and minimum temperatures, as well as the weather conditions, for the upcoming 7 days.
+* **Dynamic background:** The background image and the card color change dynamically based on the time of day and the weather.
 
 Technologies used:
 * **React.js** - For building the user interface.
